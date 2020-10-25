@@ -1,0 +1,596 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &118994
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22477098}
+  - 222: {fileID: 22259908}
+  - 114: {fileID: 11467452}
+  - 114: {fileID: 11437396}
+  - 114: {fileID: 11443638}
+  m_Layer: 5
+  m_Name: Hexagon
+  m_TagString: Hexagon
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &176972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22478458}
+  - 222: {fileID: 22290674}
+  - 114: {fileID: 11461200}
+  m_Layer: 5
+  m_Name: GoalImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &187388
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22424338}
+  - 222: {fileID: 22289656}
+  - 114: {fileID: 11463406}
+  m_Layer: 5
+  m_Name: HoverImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &11437396
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_DisabledColor: {r: .669117689, g: .669117689, b: .669117689, a: 1}
+    m_ColorMultiplier: 1
+    m_FadeDuration: .100000001
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 11467452}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11443638}
+        m_MethodName: PlantSeed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &11443638
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 780bbda72fa1b404a8fe9ff31f21bbdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hexagonColor: 0
+  goalColor: 0
+  hoverColor: 0
+  hexagonID: 0
+  ColorImage: {fileID: 11467452}
+  GoalImage: {fileID: 11461200}
+  HoverImage: {fileID: 11463406}
+  flowerCenters:
+  - {fileID: 21300000, guid: 0e9e1c9c82a48c84a9a5d7f1cede76ec, type: 3}
+  - {fileID: 21300000, guid: 27e2578c194d3634abbdae862be9d495, type: 3}
+  - {fileID: 21300000, guid: c88607269773a2a4189ab2050d299ff3, type: 3}
+  - {fileID: 21300000, guid: b14663dedca84c747bd76a6ab14727bd, type: 3}
+  - {fileID: 21300000, guid: 1b16cc4e852c60c4ca8e5d80d62b0167, type: 3}
+  - {fileID: 21300000, guid: ad9adb723320a404980074a12dfca87e, type: 3}
+  - {fileID: 21300000, guid: 06ebe79bfb3de5c4ba459aa4a9845e29, type: 3}
+  flowerPetals:
+  - {fileID: 21300000, guid: 0e9e1c9c82a48c84a9a5d7f1cede76ec, type: 3}
+  - {fileID: 21300000, guid: e88836c2125fa8f4fa856580cf0268d2, type: 3}
+  - {fileID: 21300000, guid: 31d1dd60836a3de46b09ee8e76cbbdcd, type: 3}
+  - {fileID: 21300000, guid: ec863d2192ea82a4da18b05da4694061, type: 3}
+  - {fileID: 21300000, guid: 1b16cc4e852c60c4ca8e5d80d62b0167, type: 3}
+  - {fileID: 21300000, guid: ad9adb723320a404980074a12dfca87e, type: 3}
+  - {fileID: 21300000, guid: 06ebe79bfb3de5c4ba459aa4a9845e29, type: 3}
+  goalRings:
+  - {fileID: 21300000, guid: 2d56e1e6688218642a27e494e8ab29a3, type: 3}
+  - {fileID: 21300000, guid: 843bfcb9403e5c54b873c31ba1ca3e5d, type: 3}
+  - {fileID: 21300000, guid: d4d78b9498d345a43a5e9bfbfed69f96, type: 3}
+  - {fileID: 21300000, guid: 055381174a315ff48a9abf2bef60dc60, type: 3}
+  - {fileID: 21300000, guid: 1b16cc4e852c60c4ca8e5d80d62b0167, type: 3}
+  - {fileID: 21300000, guid: ad9adb723320a404980074a12dfca87e, type: 3}
+  - {fileID: 21300000, guid: 06ebe79bfb3de5c4ba459aa4a9845e29, type: 3}
+  hoverCenters: []
+  petalExplosion: {fileID: 100000, guid: 1129b4733ed8e4c4999f0a0e95c1e910, type: 2}
+--- !u!114 &11461200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 843bfcb9403e5c54b873c31ba1ca3e5d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &11463406
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 187388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: c88607269773a2a4189ab2050d299ff3, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &11467452
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 0e9e1c9c82a48c84a9a5d7f1cede76ec, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &22259908
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118994}
+--- !u!222 &22289656
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 187388}
+--- !u!222 &22290674
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176972}
+--- !u!224 &22424338
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 187388}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22477098}
+  m_RootOrder: 1
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22477098
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118994}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.05610561, y: 1.05610561, z: 1.05610561}
+  m_Children:
+  - {fileID: 22478458}
+  - {fileID: 22424338}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 96, y: 96}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22478458
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176972}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22477098}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: goalRings.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: flowerPetals.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: hoverCenters.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: flowerCenters.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11443638}
+    - target: {fileID: 0}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlantSeed
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_TagString
+      value: Hexagon
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Colors.m_NormalColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SpawnOnCombine
+      value: 
+      objectReference: {fileID: 119882, guid: 4523c19f8139c9343ad67258dcb1be8c, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_SizeDelta.x
+      value: 96
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_SizeDelta.y
+      value: 96
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_UseGraphicAlpha
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_FontData.m_MaxSize
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_FontData.m_LineSpacing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_FontData.m_MinSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Color.r
+      value: .0344827175
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: flowerCenters.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 0e9e1c9c82a48c84a9a5d7f1cede76ec,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: flowerPetals.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 0e9e1c9c82a48c84a9a5d7f1cede76ec,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: flowerCenters.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 27e2578c194d3634abbdae862be9d495,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: flowerPetals.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: e88836c2125fa8f4fa856580cf0268d2,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: flowerCenters.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: c88607269773a2a4189ab2050d299ff3,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: flowerPetals.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 31d1dd60836a3de46b09ee8e76cbbdcd,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: flowerCenters.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: b14663dedca84c747bd76a6ab14727bd,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: flowerPetals.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: ec863d2192ea82a4da18b05da4694061,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: goalRings.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 2d56e1e6688218642a27e494e8ab29a3,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: goalRings.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 843bfcb9403e5c54b873c31ba1ca3e5d,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: goalRings.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: d4d78b9498d345a43a5e9bfbfed69f96,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: goalRings.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: 055381174a315ff48a9abf2bef60dc60,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: petalExplosion
+      value: 
+      objectReference: {fileID: 100000, guid: 1129b4733ed8e4c4999f0a0e95c1e910, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Colors.m_NormalColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Colors.m_NormalColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Colors.m_HighlightedColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Colors.m_HighlightedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Colors.m_HighlightedColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Colors.m_PressedColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Colors.m_PressedColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Colors.m_PressedColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Colors.m_DisabledColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Colors.m_DisabledColor.r
+      value: .669117689
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Colors.m_DisabledColor.g
+      value: .669117689
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Colors.m_DisabledColor.b
+      value: .669117689
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: hoverCenters.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 3268c190a84b1aa4796a1d598d514fa2,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: hoverCenters.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: c28572bfdd0142745a55a38f0c63b8ce,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: hoverCenters.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 2002427584d00464abd6b6d3226b7e59,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: hoverCenters.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: dc29c159210cd244f8b03a81ab7f4214,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: hoverCenters.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 4f7575c6c83d5cf4e93c1c759f4e6bb3,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: ColorImage
+      value: 
+      objectReference: {fileID: 11467452}
+    - target: {fileID: 0}
+      propertyPath: flowerCenters.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 1b16cc4e852c60c4ca8e5d80d62b0167,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: flowerCenters.Array.data[5]
+      value: 
+      objectReference: {fileID: 21300000, guid: ad9adb723320a404980074a12dfca87e,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: flowerCenters.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: 06ebe79bfb3de5c4ba459aa4a9845e29,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: flowerPetals.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 1b16cc4e852c60c4ca8e5d80d62b0167,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: flowerPetals.Array.data[5]
+      value: 
+      objectReference: {fileID: 21300000, guid: ad9adb723320a404980074a12dfca87e,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: flowerPetals.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: 06ebe79bfb3de5c4ba459aa4a9845e29,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: goalRings.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 1b16cc4e852c60c4ca8e5d80d62b0167,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: goalRings.Array.data[5]
+      value: 
+      objectReference: {fileID: 21300000, guid: ad9adb723320a404980074a12dfca87e,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: goalRings.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: 06ebe79bfb3de5c4ba459aa4a9845e29,
+        type: 3}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 118994}
+  m_IsPrefabParent: 1

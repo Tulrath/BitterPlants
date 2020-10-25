@@ -1,0 +1,1 @@
+{"gameGoals":{"seedsPlanted":1},"presetBoard":[{"Key":31,"Value":2}],"gameMode":"artist","seedsPlantedSolution":[{"hexagonID":31,"colorID":2}]}

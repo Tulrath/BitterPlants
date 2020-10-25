@@ -1,0 +1,1 @@
+{"gameGoals":{"seedsPlanted":2},"presetBoard":[{"Key":17,"Value":2},{"Key":23,"Value":2},{"Key":25,"Value":2},{"Key":30,"Value":2},{"Key":32,"Value":2},{"Key":37,"Value":3},{"Key":39,"Value":3},{"Key":44,"Value":3},{"Key":45,"Value":3},{"Key":46,"Value":3}],"gameMode":"artist","seedsPlantedSolution":[{"hexagonID":38,"colorID":3},{"hexagonID":24,"colorID":2}]}

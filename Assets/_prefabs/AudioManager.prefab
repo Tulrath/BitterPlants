@@ -1,0 +1,808 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &121042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 428568}
+  - 82: {fileID: 8247268}
+  m_Layer: 0
+  m_Name: MusicSource
+  m_TagString: MusicSource
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &151890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 437858}
+  - 82: {fileID: 8296000}
+  m_Layer: 0
+  m_Name: VoiceSource
+  m_TagString: SoundEffectSource
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &161800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 489530}
+  - 82: {fileID: 8225044}
+  m_Layer: 0
+  m_Name: ButtonSource
+  m_TagString: SoundEffectSource
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &174014
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 417470}
+  - 114: {fileID: 11497392}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: AudioManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &174142
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 431190}
+  - 82: {fileID: 8205878}
+  m_Layer: 0
+  m_Name: StingerSource
+  m_TagString: SoundEffectSource
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &176750
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 411230}
+  - 82: {fileID: 8204268}
+  m_Layer: 0
+  m_Name: ProgressSource
+  m_TagString: SoundEffectSource
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &411230
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176750}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 417470}
+  m_RootOrder: 1
+--- !u!4 &417470
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174014}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 489530}
+  - {fileID: 411230}
+  - {fileID: 437858}
+  - {fileID: 431190}
+  - {fileID: 428568}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &428568
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 121042}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 417470}
+  m_RootOrder: 4
+--- !u!4 &431190
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174142}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 417470}
+  m_RootOrder: 3
+--- !u!4 &437858
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151890}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 417470}
+  m_RootOrder: 2
+--- !u!4 &489530
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161800}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 417470}
+  m_RootOrder: 0
+--- !u!82 &8204268
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176750}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: .125
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 30
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 1
+  BypassListenerEffects: 1
+  BypassReverbZones: 1
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: .00242718449
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!82 &8205878
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174142}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: .5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 20
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 1
+  BypassListenerEffects: 1
+  BypassReverbZones: 1
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: .00200000009
+      value: 1
+      inSlope: 0
+      outSlope: -1.00200403
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!82 &8225044
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161800}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: .800000012
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 0
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 1
+  BypassListenerEffects: 1
+  BypassReverbZones: 1
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: .00200000009
+      value: 1
+      inSlope: 0
+      outSlope: -1.00200403
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!82 &8247268
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 121042}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: .5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 200
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 1
+  BypassListenerEffects: 1
+  BypassReverbZones: 1
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: .00200000009
+      value: 1
+      inSlope: 0
+      outSlope: -1.00200403
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!82 &8296000
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151890}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 0
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 1
+  BypassListenerEffects: 1
+  BypassReverbZones: 1
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: .00200000009
+      value: 1
+      inSlope: 0
+      outSlope: -1.00200403
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: .00955414027
+      value: .996581316
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: .991880476
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &11497392
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 174014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a21d3b137dc81c47bf9eb6c83bb173c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ButtonClickSoundName:
+  - BREAK Crack (stereo)
+  - BREAK Fast (stereo)
+  - BREAK Hollow (stereo)
+  - BREAK Snap Crack (stereo)
+  SceneLoadSoundName:
+  - DOOR Indoor Wood Close (mono)
+  - DOOR Indoor Wood Open (mono)
+  RedPlantedSoundName:
+  - IMPACT Wood Plank On Wood Pile 01
+  - IMPACT Wood Plank On Wood Pile 02
+  - IMPACT Wood Plank On Wood Pile 03
+  - IMPACT Wood Plank On Wood Pile 04
+  BluePlantedSoundName:
+  - IMPACT Wood Plank On Wood Pile 05
+  - IMPACT Wood Plank On Wood Pile 06
+  - IMPACT Wood Plank On Wood Pile 07
+  - IMPACT Wood Plank On Wood Pile 08
+  YellowPlantedSoundName:
+  - IMPACT Wood Plank On Wood Pile 09
+  - IMPACT Wood Plank On Wood Pile 10
+  - IMPACT Wood Plank On Wood Pile 11
+  - IMPACT Wood Plank On Wood Pile 12
+  WinSoundName:
+  - VOICE FEMALE You Win 1 (mono)
+  - VOICE FEMALE You Win 2 (mono)
+  - VOICE FEMALE Success 2 (mono)
+  - VOICE FEMALE Victory 1 (mono)
+  LossSoundName:
+  - VOICE FEMALE You Lose 1 (mono)
+  - VOICE FEMALE Unacceptable 1 (mono)
+  - VOICE FEMALE Unacceptable 1 (mono)
+  - VOICE FEMALE No 1 (mono)
+  WinMusicName:
+  - PUZZLE Success Harp Three Note Fast Wet (stereo)
+  - MUSIC EFFECT Solo Harp Positive 11 (stereo)
+  - MUSIC EFFECT Solo Harp Positive 13 (stereo)
+  - MUSIC EFFECT Solo Harp Positive 16 (stereo)
+  - PUZZLE Success Harp Three Note Bright Wet (stereo)
+  - PUZZLE Success Harp Three Note Bright End Wet (stereo)
+  LossMusicName:
+  - MUSIC EFFECT Solo Harp Negative 01 (stereo)
+  - MUSIC EFFECT Solo Harp Negative 07 (stereo)
+  - MUSIC EFFECT Solo Harp Negative 15 (stereo)
+  - MUSIC EFFECT Solo Harp Negative 16 (stereo)
+  CorrectSoundName:
+  - VOICE FEMALE Confirmed 1 (mono)
+  - VOICE FEMALE Affirmative 1 (mono)
+  - VOICE FEMALE Ok 1 (mono)
+  - VOICE FEMALE Ok 2 (mono)
+  - VOICE FEMALE Alright 1 (mono)
+  - VOICE FEMALE Yep 2 (mono)
+  - VOICE FEMALE Yes 2 (mono)
+  IncorrectSoundName:
+  - VOICE FEMALE No 1 (mono)
+  - VOICE FEMALE Really 1 (mono)
+  - VOICE FEMALE Problem 2 (Subtle) (mono)
+  - VOICE FEMALE Negative 1 (mono)
+  - VOICE FEMALE Error 1 (mono)
+  - VOICE FEMALE Cough 1 (mono)
+  GrowingSoundName:
+  - CREAK Wood Tree Creak 02 Long
+  - CREAK Wood Tree Creak 08 Long Clean
+  ShakeSoundName:
+  - BUTTON Bright Click (mono)
+  - BUTTON Clean (mono)
+  - BUTTON Clean Tap (mono)
+  - BUTTON Clean with Tail (mono)
+  WelcomeSoundName:
+  - VOICE FEMALE Orders Received 1 (mono)
+  - VOICE FEMALE Welcome 3 (mono)
+  - VOICE FEMALE Commencing 1 (mono)
+  - VOICE FEMALE Awaiting Instructions 1 (mono)
+  - VOICE FEMALE Reporting In 2 (mono)
+  - VOICE FEMALE Ready 1 (mono)
+  - VOICE FEMALE I'm Ready 1 (mono)
+  - VOICE FEMALE Get Ready 1 (mono)
+  - VOICE FEMALE Your Command 3 (mono)
+  - VOICE FEMALE Follow Me 3 (mono)
+  - VOICE FEMALE Standing By 2 (mono)
+  MusicSets:
+  - starts:
+    - {fileID: 8300000, guid: bca08b01eedeca24b8ae3b3eb67f13f0, type: 3}
+    middles:
+    - {fileID: 8300000, guid: f03c7cfbfdf763e41bebc2b2c7aa3bad, type: 3}
+    - {fileID: 8300000, guid: e55e8dd6e62052d4489aa0cb1623bf1f, type: 3}
+    - {fileID: 8300000, guid: beab980f10897cb4dac96b876ef43154, type: 3}
+    - {fileID: 8300000, guid: 1d1bb97c7d6fb4341b3b82cd611af0a8, type: 3}
+    - {fileID: 8300000, guid: a973e0abc8434194f92fe1b32da605b2, type: 3}
+    ends:
+    - {fileID: 8300000, guid: c83d023d12e3e7c4a91fbbcbb0b6e623, type: 3}
+  - starts:
+    - {fileID: 8300000, guid: d30b0edc88e86ac41af62572c082ba64, type: 3}
+    middles:
+    - {fileID: 8300000, guid: 58162b6f3fe1d144f987f63076a7d9f7, type: 3}
+    - {fileID: 8300000, guid: 096cfb63e7cd50243920143e0951f76e, type: 3}
+    - {fileID: 8300000, guid: 6e44d9f4443d2f64589fb38d1aa9a8f6, type: 3}
+    - {fileID: 8300000, guid: 4ce8900cb8ddfe24982fb65d6358aa8c, type: 3}
+    - {fileID: 8300000, guid: fca14894715bf014dafec7838e51741c, type: 3}
+    ends:
+    - {fileID: 8300000, guid: af57db7ebf8a47f4ba14d59bfc9e6019, type: 3}
+  - starts:
+    - {fileID: 8300000, guid: dc6a00621c3fbc849b44d694a9ca0f64, type: 3}
+    middles:
+    - {fileID: 8300000, guid: a48548a194d3af94a8f1ca3ff6f927bf, type: 3}
+    - {fileID: 8300000, guid: db3efb77adcdbf546bb27e6af778f49b, type: 3}
+    - {fileID: 8300000, guid: ea07b46054fa5b545af3581809cc2160, type: 3}
+    - {fileID: 8300000, guid: 689a79190e642444ca80b41ee9eba84b, type: 3}
+    - {fileID: 8300000, guid: e8606e8be0b06c7408ebc14962153f01, type: 3}
+    ends:
+    - {fileID: 8300000, guid: ece0d47023acf904e9e904a2e5d160f9, type: 3}
+  ButtonSource: {fileID: 8225044}
+  ProgressSource: {fileID: 8204268}
+  VoiceSource: {fileID: 8296000}
+  StingerSource: {fileID: 8205878}
+  MusicSource: {fileID: 8247268}
+  currentMusicState: 0
+  allAudioLoaded: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: MusicSets.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BannerSoundName.Array.size
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: CountdownSoundName.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: MusicSets.Array.data[0].ends.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: MusicSets.Array.data[0].starts.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: MusicSets.Array.data[0].middles.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: SceneLoadSound.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: a7e607ee31ed9a647bb0f07d7da81ba6, type: 3}
+    - target: {fileID: 0}
+      propertyPath: LossSound.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: f19fc67e366fa7143b080afd6ec3db8f, type: 3}
+    - target: {fileID: 0}
+      propertyPath: m_TagString
+      value: SoundEffectSource
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: CountdownSoundName.Array.data[4]
+      value: VOICE FEMALE 4 (mono)
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: CountdownSoundName.Array.data[3]
+      value: VOICE FEMALE 3 (mono)
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: CountdownSoundName.Array.data[2]
+      value: VOICE FEMALE 2 (mono)
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: CountdownSoundName.Array.data[1]
+      value: VOICE FEMALE 1 (mono)
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: CountdownSoundName.Array.data[0]
+      value: VOICE FEMALE Go 2 (Shout) (mono)
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: CountdownSoundName.Array.data[5]
+      value: VOICE FEMALE 5 (mono)
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BannerSoundName.Array.data[0]
+      value: VOICE FEMALE Go 2 (Shout) (mono)
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BannerSoundName.Array.data[1]
+      value: VOICE FEMALE 1 (mono)
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BannerSoundName.Array.data[2]
+      value: VOICE FEMALE 2 (mono)
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BannerSoundName.Array.data[3]
+      value: VOICE FEMALE 3 (mono)
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BannerSoundName.Array.data[4]
+      value: VOICE FEMALE 4 (mono)
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BannerSoundName.Array.data[5]
+      value: VOICE FEMALE 5 (mono)
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BannerSoundName.Array.data[6]
+      value: VOICE FEMALE 6 (mono)
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BannerSoundName.Array.data[7]
+      value: VOICE FEMALE 7 (mono)
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BannerSoundName.Array.data[8]
+      value: VOICE FEMALE 8 (mono)
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BannerSoundName.Array.data[9]
+      value: VOICE FEMALE 9 (mono)
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BannerSoundName.Array.data[10]
+      value: VOICE FEMALE 10 (mono)
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BannerSoundName.Array.data[11]
+      value: amazing_rainbow_mouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BannerSoundName.Array.data[12]
+      value: best_funtime_stun_grenade
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BannerSoundName.Array.data[13]
+      value: famous_partytime_zombie
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BannerSoundName.Array.data[14]
+      value: friendly_chaos_kitten
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BannerSoundName.Array.data[15]
+      value: happy_party_laser
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BannerSoundName.Array.data[16]
+      value: joyful_armageddon_wolf
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BannerSoundName.Array.data[17]
+      value: legendary_happiness_robot
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BannerSoundName.Array.data[18]
+      value: perfect_love_bomb
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: BannerSoundName.Array.data[19]
+      value: super_friendship_spider
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: MusicSets.Array.data[0].starts.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: bca08b01eedeca24b8ae3b3eb67f13f0, type: 3}
+    - target: {fileID: 0}
+      propertyPath: MusicSets.Array.data[0].middles.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: f03c7cfbfdf763e41bebc2b2c7aa3bad, type: 3}
+    - target: {fileID: 0}
+      propertyPath: MusicSets.Array.data[0].middles.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: e55e8dd6e62052d4489aa0cb1623bf1f, type: 3}
+    - target: {fileID: 0}
+      propertyPath: MusicSets.Array.data[0].middles.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: beab980f10897cb4dac96b876ef43154, type: 3}
+    - target: {fileID: 0}
+      propertyPath: MusicSets.Array.data[0].middles.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 1d1bb97c7d6fb4341b3b82cd611af0a8, type: 3}
+    - target: {fileID: 0}
+      propertyPath: MusicSets.Array.data[0].middles.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: a973e0abc8434194f92fe1b32da605b2, type: 3}
+    - target: {fileID: 0}
+      propertyPath: MusicSets.Array.data[0].ends.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: c83d023d12e3e7c4a91fbbcbb0b6e623, type: 3}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 174014}
+  m_IsPrefabParent: 1

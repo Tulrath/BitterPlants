@@ -1,0 +1,194 @@
+﻿---------------
+Chapter 17
+---------------
+
+Yellow:  The boxes don’t have marks anymore!
+
+Evva: They’ve gone into ultraviolet, I can still see the marks, but we must be close to the center… start looking for the control…
+
+Before Evva can even finish her sentence, she flies around a corner and comes to the entrance of  an enormous chamber.  Thousands of wires dangle from opening in the walls and connect to an elaborate control node, just like the small ones on the walls, but much larger -- filling the whole room.  Around the edges of the control node, dozens of drones flitter about tapping row after row of buttons and switches, making temporary patches with short lengths of cables, responding to lights flashing in codes that only they can understand.
+
+At the top of it all, a giant metal snake is coiled up with its eyes closed.
+
+Evva:  I thought we might run into this snake one more time.  She has to be guarding the main control node… of course she does!
+
+Yellow: Can we just fly in and starting cutting wires?
+
+Evva: I don’t think so, these drones aren’t mindless automatons like the others.  They have to be able to think and react to do their job.  I’m pretty sure they’ll attack us if they see us.
+
+Yellow:  IF they see us.
+
+Evva:  What do you mean?
+
+Yellow: I’ve always heard that bees don’t have very good vision… is that true?
+
+Evva:  Well, we don’t see very much in the range that humans use -- we mostly see things in the ultraviolet spectrum.
+
+Yellow stands against the corridor wall and bends over so that she is touching the ground with her highest and lowest leaves, forming an A-frame shape.
+
+Evva:  Um… what are you doing, Yellow?
+
+Yellow:  It’s called “Downward Dog,” it’s part of my Yoga classes.
+
+Evva:  I don’t think these drones would be interested in Yoga classes right n….
+
+Suddenly Yellow vanishes from Evva’s sight.
+
+Evva:  WHOA!  Where did you go?!
+
+Yellow:  I’m still here.  You just can’t see me because my metabolism is so slow right now.  Some Yoga poses slow down my metabolism, which means my leaves aren’t converting light to sugar water right now, so my leaves are absorbing ultraviolet light instead of reflecting it, so no ultraviolet light for you!
+
+Evva:  That is SO COOL!  But seriously, where are you?
+
+Yellow grabs Evva around the waist and gives her a big hug.
+
+Yellow:  Always by your side, sweetie, that’s where.
+
+Evva spins around and flings her arms around Yellow’s stem.  Yellow loses her concentration, and becomes visible to Evva again.
+
+Evva:  You are a genius!
+
+Yellow: Tell me about it!  I’m guessing these drones were made to mimic every function of a living bee, so I’m guessing that they only see in ultraviolet as well?
+
+Evva:  I think it’s worth a shot.
+
+Yellow: What do I do when I get inside?
+
+Evva: If this is like a normal hive, the whole design is hierarchical - which means there must be one junction at the center of everything -- a top-level node.  It’s probably inside that large control node.
+
+Yellow:  Single point of failure, awsome!  But how do I get inside?
+
+Evva:  Yeah, I was holding off that bit of news ‘til the end.  See that snake up there?  The door is probably under it.
+
+Yellow:  So… basically, then… just… quietly sneak inside a room of insane mechanical killer bees while doing Yoga poses… then climb a wall of buttons and switches without hitting any of them… then somehow move a fifty-pound mechanical snake death machine, while not waking it up… so I can sneak into a nest of electrical wires to break a control node with my bare hands.  Is that all?
+
+Evva:  What could go wrong?
+
+Yellow:  What could go wrong?
+
+
+Running through the narrow corridors of the steel hive, Red is trying to stay close to Jack, but Jack is nimble and fast, and Red is having a hard time keeping up.  Hank finally stopped protesting being taken away from the battle and is now running along next to Red. Finally, they reach the south door, and step out into the morning sunlight.
+
+The sky is gray, and a light drizzle of rain is falling.  Even coming through the clouds, the light feels amazing on Red’s petals.  He takes a moment to take a deep breath, but then gets back to helping some of the older bees make their way down the corridor.  Each bee takes flight as soon as they are outside, and fly off in every direction, staying low to the ground to avoid being spotted.
+
+Jack is the last to leave, having made sure everyone else was out.  He stands now on a small landing platform with Hank and Red.  The platform gives them a majestic view of South Branch.  The tiny stream that used to lazily meander West out of South Branch has swollen from all the rain they’ve been having, and is now a raging river.  
+
+Jack: That’s the last of them.  They’ll warn their hives about everything that’s happened.  Hopefully, they’ll have enough time to mount a strong defense.  The mice have sent messengers to all the other critters in the forest too -- this fight isn’t just about bees anymore.
+
+Red: Well, it was almost the last of them… Evva and Yellow are still in there.
+
+Jack: Evva knows what she’s doing, Red.  If they can knock out that control node, then we have a good chance of turning this whole thing around.
+
+Red: I know,  I just wish I could be in there helping them.
+
+Jack: This is one place where your size and strength are not an asset -- Evva and Yellow are small, and can sneak around without being noticed.  But I think there is something you and I CAN do out here.
+
+Red: I’ll do anything if it stops this madman!
+
+Jack: I used to watch the humans doing car repair all the time when I was a teenager, and since Gill’s hive is built from a car engine… I was just wondering…
+
+Red:  I’m GREAT with a wrench!
+
+Hank: Car repair?!  I’m going to learn car repair?!  Cool !!!!
+
+Red, Jack and Hank slowly crawl down to the bottom of the hive, and make their way to the engine’s undercarriage.  
+
+Jack:  Gill didn’t bother disassembling any of the actual engine components, the pistons and cylinders look like they are still intact.  I know that he has been draining off the acid from the battery to put in his drones’ stingers -- but the battery should still have enough charge left to make a spark.
+
+Red: Wait, we don’t want to make this hive mobile, do we?
+
+Jack: Oh no, of course not.  All we have to do is to get the engine to turn over once.  Gill has built his hive right in the middle of the engine -- inside the cylinders.  If we can open the gas intake valves at the top of the cylinders, and make a spark… there will be a huge explosion and the pistons will try to move, but they’ll slam against the assembly lines Gill has fabricated.  The whole hive will seize-up and explode, destroying all the drones inside.
+
+Red:  What about Evva and Yellow?
+
+Jack:  The main control node should be in the bell housing, outside the main engine.  They should be safe from any flying pistons or other shrapnel  -- but we have to take out both parts of Gill’s operation at the same time.  If we just take out the assembly lines under the cylinders, then the existing drones will just repair it.  If we just take out the control room, Gill will just use manual controls with a small group of drones to repair the control tower and he’ll be back in business.  We have to take out both the control tower and the assembly lines at the same time.  That way, it will leave Gill with no drones to control, no way to repair the damage, and no way to make more drones.
+
+Red:  How do we know when the main control node is down?
+
+Jack: Oh we’ll know.
+
+Back inside the control room, Yellow has maneuvered across the floor to the side of the main control node using a variety of Yoga poses.  
+
+Yellow:  ...now Camel… Triangle… Warrior…
+
+Yellow puts her back against a side of the main control node that isn’t being stationed by a drone.  She holds a tree pose for a moment, takes a deep breath and starts climbing to the top.  Evva suddenly sees that Yellow is now visible.  She lets out a muffled squeal, but the drones don’t seem to notice -- they continue clicking away at rows and rows of buttons and switches.  As Yellow has been climbing, she has been slowly circling around the control node, and is now on a side where a drone is manning its station, directly below her.
+
+Yellow is having a hard time finding a foothold and accidentally rests a root on the head of the drone below her.  The drone is momentarily confused, but then looks up and sees Yellow.  Its response is instantaneous -- it immediately flies up, trying to grab Yellow, it’s wicked barbed stinger lancing through the air.
+
+Princess Evva launches into the air and slams into the drone, sending it tumbling into a bank of controls on the opposite side of the room.  The other two drones fly up from their stations around the main control node and positions themselves on either side of the first drone.  All three simultaneously reach behind their backs where a small storage compartment door has slid open.  From the compartment, each drone pulls out the handle of a staff, they click the handle and the telescoping body of the staff extends out from both ends with a sudden snap.  The ends of the staffs crackle with electricity.
+
+Unbeknownst to Yellow and Evva, Anne has woken up, and has slithered to a position on the control node just above their heads.  Anne strikes, but Evva can feel the sudden rush of air movement in front of the metal snake’s head, and deftly spins out of the way.  Anne’s strike misses and the whole room reverberates like a giant bell when her head hits the floor.
+
+The drones are close in on Yellow, but Evva swoops down and lifts the tiny daisy out of reach of the drones’ staffs.  The first drone tightens its grip on its staff and a sudden bolt of lightning blasts out from its tip.  The bolt is hard to control, though, and it strikes a switch on the control panel instead.  All three drones start shooting bolts at Princess Evva, but she flies in wild loops and the bolts miss their mark every time.
+
+Anne has risen up from the floor and is preparing for a second strike.  Evva gets a funny look at her face and looks at Yellow, who has managed to climb onto Evva’s back.  Yellow has been grabbing loose cables, wires, and pieces of metal and throwing them at the drones.
+
+Evva:  I have an idea!
+
+Yellow:  Oh no!
+
+Evva:  Trust me!
+
+Evva flies directly into striking range of Anne,  Anne is confused for a split second, but strikes with all the force its metallic body can muster.  At the same time, the drones release more bolts of lighting from their staffs, but the bolts instead hit Anne.
+
+Anne’s body glows for an instant, and the snake’s whole body shakes and contorts as the electricity courses through its circuits.  Inside, Professor’s Thorn’s eyes can be seen through a small opening in Anne’s chest, and the feral glow in his eyes begins to fade.  Professor Thorn’s eyes close, and Anne falls to the floor in a heap with a tremendous crash.
+
+The drones furiously charge Princess Evva.  One of the drone staffs clips her wings, sending her spinning to the ground as well, landing in a heap with Yellow on top of the defeated metal serpent.  The drones begin to close in.
+
+Yellow suddenly wraps Evva in her leaves, completely covering her, and she focuses for a moment, closing her eyes and letting out a deep breath.
+
+Yellow:  Downward Dog.
+
+Yellow suddenly vanishes from the drone’s sight, hiding Princess Evva like a cloak of invisibility.  The drones strike, swinging their staffs with all their strength and speed, but Yellow has already inched away, carrying the injured Princess with her.
+
+Evva and Yellow have snuck over to the opposite end of the room, and now whisper to each other 
+
+Evva:  Now what?
+
+Yellow:  Did you ever play puffball as a kid?
+
+Evva:  No did you?
+
+Yellow:  Uh huh.  With really big rocks!
+
+Yellow suddenly throws Evva up to the top of the main control node.  Evva lands with a thud, but the drones instead are focused on the little daisy that has suddenly appeared on the opposite side of the room.  The drones fly over and pin Yellow to the ground with their staffs.
+
+Evva flips open the hatch and drops into the center of the main control node into a nest of wires.  The drones squeeze their staffs and lightning courses through Yellow’s stem - she screams in pain.  
+
+Evva:  Which one do I cut?!
+
+Yellow:  I don’t know!  All of them?!
+
+Evva uses the edge of her stinger to start slicing through the wires, they crackle and spark wildly.  The drones continue shocking Yellow as she screams, dark burn marks start to appear on Yellow’s leaves.
+
+Yellow:  Now would be a good time to cut those wires!
+
+Suddenly the drones collapse, falling on top of Yellow.  Princess Evva’s head pops out from the top of the main control node.
+
+Evva:  Did that work?
+
+Evva sees Yellow on the floor and flies down to her side, gently pulling her out from under the pile of motionless drones.  She sees the burn marks on Yellow’s leaves.
+
+Evva:  Oh, sweetie, don’t worry, Jack will fix you right up.  We’ll get you you out of here, Jack will take good care of you, you’ll be fine, I promise.
+
+Yellow coughs and wraps her leaves around Evva’s waist.
+
+Yellow:  Let’s get out of here.
+
+Suddenly an enormous furry mongoose paw reaches into the control room, and its claws clamp down on Yellow and Evva like a steel cage.  Sergeant Fang’s paw drags the two, screaming, out of the control room and into the cold night.
+
+Outside, Jack jumps out of the way as a patrol drone crashes into the ground right where he was standing.  With no control signal, the drone army has reverted to sleep mode and is falling out of the sky.
+
+Jack turns to Red and Hank.
+
+Jack:  I think it’s our turn now!
+
+Jack pulls together two bare wires, completing the circuit from the battery to the starter.
+
+The starter motor clicks, and starts to smoke.  The motor squeaks and creaks, but suddenly it bursts into life, making a single rotation.  The dilapidated truck engine tries to turn over, but all of Gill’s new construction work gets in the way of the pistons.
+
+The night is shaken by the sudden explosion of the truck engine.  Gill’s steel hive is ripped and shredded from within.  Flaming shrapnel and smoke fill the air around the engine.  The fuel line has been ripped from its intake valve and the fuel it has been spraying all over the engine suddenly catches on fire.  Gill’s entire steel hive is suddenly engulfed in flames.  The air is is filled with the smell of burning wires.
+
+General Gill looks back at his steel hive as it explodes and can see his drone army falling from out of the sky and collapsing where they stand.  His scream of anger is so loud that it echoes over the milkweed pond.  He looks back down at the tiny daisy and the queen bee that he has trapped under Sergeant Fang’s paw.
+
+General Gill:  WHAT HAVE YOU DONE!!!!

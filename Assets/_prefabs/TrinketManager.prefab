@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &118338
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 459350}
+  - 114: {fileID: 11409628}
+  m_Layer: 0
+  m_Name: TrinketManager
+  m_TagString: TrinketManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &459350
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118338}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11409628
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76e9c79ac7df72744afd28f4fdf2478c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trinkets:
+  - {fileID: 11400000, guid: 513c53b4315978947909f82afad8af25, type: 2}
+  - {fileID: 11400000, guid: bb073f89243d3e14caaf16f978030c50, type: 2}
+  - {fileID: 11400000, guid: 7cfb20a81298a154f9a785d40c149861, type: 2}
+  - {fileID: 11400000, guid: dd37eb22d56674d47959b90436f986c3, type: 2}
+  - {fileID: 11400000, guid: 91614d2ffacf851488a75e5e97c389d9, type: 2}
+  - {fileID: 11400000, guid: 02f10daa7dc405045b97e0add3b7f35c, type: 2}
+  - {fileID: 11400000, guid: fa58e21dd4fee4b4ca6cfa29def38070, type: 2}
+  - {fileID: 11400000, guid: 71d2b728b26b2c249b88a741dfe09077, type: 2}
+  - {fileID: 11400000, guid: d724ba46184ccad4cb7b09cd7e21dff2, type: 2}
+  - {fileID: 11400000, guid: 2e7324d37dde7434caae9c0eac28deb6, type: 2}
+  - {fileID: 11400000, guid: f2c7283783063cf40b9589cf4a0898e5, type: 2}
+  - {fileID: 11400000, guid: 97a72cc45d7a971449af7e6153eb77fc, type: 2}
+  - {fileID: 11400000, guid: 21a842b47ae09814e8fedf96f1839721, type: 2}
+  - {fileID: 11400000, guid: 3bcdb49dad7459d46abfce731bd1f54c, type: 2}
+  - {fileID: 11400000, guid: ef2a2121c81e0d148a5ac50ad3876f60, type: 2}
+  - {fileID: 11400000, guid: 2e96bdcf21c2a174bbe88080ac967d44, type: 2}
+  - {fileID: 11400000, guid: ea57ed207e3f1ae4eaa10b3bfa408a80, type: 2}
+  - {fileID: 11400000, guid: 56046fabf33da7c41a0efb51f66aa215, type: 2}
+  - {fileID: 11400000, guid: 4d6240fc0051c8a4db48a6ca833f4946, type: 2}
+  - {fileID: 11400000, guid: 1f0d03ac647661b4a8b8303991d9b75a, type: 2}
+  - {fileID: 11400000, guid: 75c145a8bed5b97488538541b18d6879, type: 2}
+  - {fileID: 11400000, guid: 6c07f2f91b39d004cb3d99431e3123ed, type: 2}
+  - {fileID: 11400000, guid: c3fd24e377d4f1c48b0d08c3441eb741, type: 2}
+  - {fileID: 11400000, guid: 8c389ccb0c0b8b1428370deb8e1dadc4, type: 2}
+  - {fileID: 11400000, guid: 210bdfecea816084ca9e6cb29af1883f, type: 2}
+  - {fileID: 11400000, guid: 6cbe697536a19c340b6964ba7f183291, type: 2}
+  - {fileID: 11400000, guid: 18394fe0fe6be8340bf7aa538485c69f, type: 2}
+  - {fileID: 11400000, guid: efe73d6abe8f1a54da24e0f7a535d31e, type: 2}
+  - {fileID: 11400000, guid: af4cd8284901e1d4190d543d1e44f498, type: 2}
+  - {fileID: 11400000, guid: 80a86213bf9a82e4389957fde03eff92, type: 2}
+  - {fileID: 11400000, guid: d69b2d2f1183e1d4f9a0814a441cc7ba, type: 2}
+  - {fileID: 11400000, guid: fa50b246f3dbb024abf03c8809a4d2dc, type: 2}
+  - {fileID: 11400000, guid: 5c623175c52c6e242a209b5931d5f071, type: 2}
+  - {fileID: 11400000, guid: 9bcaaf3927f801e4fab2dfa21e8ceb81, type: 2}
+  - {fileID: 11400000, guid: 4a2dfdc5e4076424abf2a10f72d1fc4f, type: 2}
+  - {fileID: 11400000, guid: f60528f0e0ba3de4a821143adef5787d, type: 2}
+  - {fileID: 11400000, guid: 7aa249753e19ea24d9024c662a8b72ae, type: 2}
+  - {fileID: 11400000, guid: b368a7020e57f114fa4a443a7bdab47b, type: 2}
+  - {fileID: 11400000, guid: 2cee31d553f70c34e8df7d2a08f95fad, type: 2}
+  - {fileID: 11400000, guid: 2c625869197c9604d9759cec99b4d450, type: 2}
+  - {fileID: 11400000, guid: 22bb4a9cd1394444c92db466bcc3b853, type: 2}
+  - {fileID: 11400000, guid: 2a00d04142f39244082dadf3a883f9bd, type: 2}
+  - {fileID: 11400000, guid: f4943b35d7583f74c818bb61a646523c, type: 2}
+  - {fileID: 11400000, guid: cb51e0bf266b04447a7809b476172468, type: 2}
+  - {fileID: 11400000, guid: 43bc6e9676133f24fa05a9e51ff4eed9, type: 2}
+  - {fileID: 11400000, guid: 34c2e5729b424484d8b2b47c939b984b, type: 2}
+  - {fileID: 11400000, guid: 89396e283091d70489e91d63b8ce8e89, type: 2}
+  - {fileID: 11400000, guid: e55ca80efcfb761498636953170e7440, type: 2}
+  - {fileID: 11400000, guid: 59d6ade1a5d3f5143aead790add68e58, type: 2}
+  - {fileID: 11400000, guid: 42c6738ea073b1a4cba4a8cd64ae45be, type: 2}
+  - {fileID: 11400000, guid: 018136cac2a67a84eb742ad9ceae4bdd, type: 2}
+  - {fileID: 11400000, guid: c947044b45910bd42b2fc7eabebc7dd1, type: 2}
+  - {fileID: 11400000, guid: 8f117bbc026852746b49c83371f20424, type: 2}
+  - {fileID: 11400000, guid: 1f2120b9a2c83b5419ab8c935556aa10, type: 2}
+  - {fileID: 11400000, guid: d59e81a95da311d41a4bd76a29ed1321, type: 2}
+  - {fileID: 11400000, guid: 126566b5c61383b4b9373c02ece53918, type: 2}
+  - {fileID: 11400000, guid: b9b49845b539cca4381ea18beeb393af, type: 2}
+  - {fileID: 11400000, guid: a511791eb9b96574e94eb3b07b3d25d6, type: 2}
+  - {fileID: 11400000, guid: 44c8bbaf8fee5f840aa2063b23b7094c, type: 2}
+  - {fileID: 11400000, guid: ed92b8a153d8a9d45992ed872d8d8f90, type: 2}
+  - {fileID: 11400000, guid: c3fb3ace1dfa4184ebab829b25b9faab, type: 2}
+  - {fileID: 11400000, guid: 5aa891e5d35f3504094cabe7ff009e08, type: 2}
+  - {fileID: 11400000, guid: 2dc865f5b5cb8ee44960766f16111ae1, type: 2}
+  - {fileID: 11400000, guid: b47b458d1d0f0f94aa774b2b6d182a27, type: 2}
+  - {fileID: 11400000, guid: e762532602d229843908d52470bf8d55, type: 2}
+  - {fileID: 11400000, guid: a34715fce1e20e340a3a49a5574cd73b, type: 2}
+  - {fileID: 11400000, guid: 9a6cd2ffbdbf3db4a81aa35bd18b4739, type: 2}
+  - {fileID: 11400000, guid: 78683b586ace9ae4faf4c98d14cc4656, type: 2}
+  - {fileID: 11400000, guid: d4a4820833a0d4742b506f7114f7b44b, type: 2}
+  - {fileID: 11400000, guid: c5c82966da441004987441940214dbf6, type: 2}
+  - {fileID: 11400000, guid: 6230b08b641bc1540ba3f45d65c44210, type: 2}
+  - {fileID: 11400000, guid: 13b85e3b4662ccd4ba8f8874eab4f668, type: 2}
+  - {fileID: 11400000, guid: e9e2fe5a8678427448e9b027322b903f, type: 2}
+  - {fileID: 11400000, guid: e475eafcba6691845bba1187bcd6c935, type: 2}
+  - {fileID: 11400000, guid: ba462a37add3ad94a8dfea00b0ae19d2, type: 2}
+  - {fileID: 11400000, guid: 450d13fe1a6b6844c9fe12113c3121ba, type: 2}
+  - {fileID: 11400000, guid: 53e75e9fb0cee004a9723d8ade1db09e, type: 2}
+  - {fileID: 11400000, guid: af101757b429e824f843012b1df4262c, type: 2}
+  - {fileID: 11400000, guid: 47b9c2057414c5e4b9c9b25af230436c, type: 2}
+  - {fileID: 11400000, guid: bcdd41e8c45dfba4bb27cb4dd386a2e9, type: 2}
+  - {fileID: 11400000, guid: 6782e5b6c4c5a8d45af07849fa210ffd, type: 2}
+  - {fileID: 11400000, guid: 8f875982d3a721c45aa25653d534692d, type: 2}
+  - {fileID: 11400000, guid: ee085f3fc8127f44fb3319f4136acb7c, type: 2}
+  - {fileID: 11400000, guid: 7789089afc7af0041ab93013a0ceda0e, type: 2}
+  - {fileID: 11400000, guid: df305cc98b5af534f8faf1b9a2374709, type: 2}
+  - {fileID: 11400000, guid: 29b1f48a8c16f7342a1f696f6ed5e0cd, type: 2}
+  - {fileID: 11400000, guid: 53dd3a58ca2fe44459fecc40ab6bfb97, type: 2}
+  - {fileID: 11400000, guid: 4658efcce5c73f54c8623125f4f314ca, type: 2}
+  trinketButtonPrefab: {fileID: 158320, guid: e6041c9ff796f784fa408853dea1d30e, type: 2}
+  viewportContent: {fileID: 0}
+  unknownTrinket: {fileID: 11400000, guid: 4b041ce6a2a845c44aa70c65bb98eb94, type: 2}
+  scrollViewRect: {fileID: 0}
+  rewardExplosions:
+  - {fileID: 100002, guid: 0422efb500eecaa4b956cfed8aef8a92, type: 2}
+  - {fileID: 100002, guid: ee918b937d1fa9e4d829ea4d509d39fd, type: 2}
+  - {fileID: 100002, guid: 6789aa8373dd05e45ab15ba4e68e79cf, type: 2}
+  - {fileID: 100002, guid: f22c5785808020b4dadaf408c43fe7f2, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: trinkets.Array.size
+      value: 88
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 118338}
+  m_IsPrefabParent: 1
